@@ -1,0 +1,360 @@
+ /*sans sherif*/
+
+body {
+    background-color: #999999;
+}
+
+.navbar {
+    background-color: #170409;
+    border: solid 3px white;
+    border-radius: 30px;
+}
+
+.perfil {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    display: flex;
+    margin-right: 1400px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.button {
+    color: gainsboro;
+    background-color: sienna;
+    border: 0;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 950px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 120px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.fondito {
+    width: 950px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: rgb(0, 166, 255);
+}
+
+.fotoperfil {
+    width: 300px;
+    height: 290px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+    left: 20px;
+    border: solid 3px whitesmoke;
+}
+
+.editar {
+    width: 120px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    left: 600px;
+    bottom: 280px;
+    font-size: 19px;
+    background-color: sienna;
+    color: whitesmoke;
+    border-radius: 10px;
+    justify-content: center;
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.infoperfil {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 160px;
+    left: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.Nombre {
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(18, 69, 98);
+}
+
+.Descripcion2 {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+}
+
+.container2 {
+    width: 800px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    position: relative;
+}
+
+.Title {
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: rgb(18, 69, 98);
+}
+
+.infoacademica {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 20px;
+    top: 20px;
+}
+
+.container3 {
+    width: 800px;
+    height: 240px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 1200px;
+    bottom: 800px;
+}
+
+.soli {
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 10px;
+    font-family: sans-serif;
+    color: rgb(18, 69, 98);
+}
+
+.infocesar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.fotocesar {
+    width: 80px;
+    border: solid 3px rgba(46, 63, 86, 0.988);
+    border-radius: 50%;
+}
+
+.doncesar {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.check {
+    width: 60px;
+    margin-left: 277px;
+}
+
+.equis {
+    width: 95px;
+}
+
+.infodasly {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.fotodasly {
+    width: 80px;
+    border: solid 3px rgba(46, 63, 86, 0.988);
+    border-radius: 50%;
+}
+
+.doñadasly {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.check2 {
+    width: 60px;
+    margin-left: 300px;
+}
+
+.equis2 {
+    width: 95px;
+}
+
+.container4 {
+    width: 800px;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 1200px;
+    bottom: 800px;
+}
+
+.tusconexiones {
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    left: 260px;
+    top: 10px;
+    font-family: sans-serif;
+    color: rgb(18, 69, 98);
+}
+
+.infojenni {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.fotojenni {
+    width: 80px;
+    border: solid 3px rgb(7, 95, 23);
+    border-radius: 20px;
+}
+
+.doñajenni {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.infoesteban {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.fotoesteban {
+    width: 80px;
+    border: solid 3px rgb(7, 95, 23);
+    border-radius: 20px;
+}
+
+.donesteban {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.infomaria {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.fotomaria {
+    width: 80px;
+    border: solid 3px rgb(7, 95, 23);
+    border-radius: 20px;
+}
+
+.doñamaria {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.infochabo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.fotochabo {
+    width: 80px;
+    border: solid 3px rgb(7, 95, 23);
+    border-radius: 20px;
+}
+
+.chabo {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.infosech {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.fotosech {
+    width: 80px;
+    border: solid 3px rgb(7, 95, 23);
+    border-radius: 20px;
+}
+
+.elsech {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: sans-serif;
+    color: black;
+}
+
